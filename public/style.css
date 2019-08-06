@@ -1,0 +1,44 @@
+h1{
+  color:rgb(197, 18, 251);
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: blackrgb(40, 148, 18);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color:rgb(242, 23, 16);
+}
+label{
+  display: inline-block;
+  width: 135px;
+}
+
+/* code to align placeholder to center  */
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
